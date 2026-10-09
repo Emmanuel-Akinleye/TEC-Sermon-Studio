@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.11">
+  <resources>
+    <format id="r1" frameDuration="100/2500s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)" />
+    <format id="r2" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)" />
+    <asset id="r3" name="Judges 16:20" start="0s" duration="0s" hasVideo="1" format="r2" videoSources="1">
+      <media-rep kind="original-media" src="file:///Users/emmanuelakinleye/Documents/TEC%20VIDEOS/VerseCaster/out/sermon%20cards/VC_01_Judges_16-20.png" />
+    </asset>
+    <asset id="r4" name="Judges 16:21" start="0s" duration="0s" hasVideo="1" format="r2" videoSources="1">
+      <media-rep kind="original-media" src="file:///Users/emmanuelakinleye/Documents/TEC%20VIDEOS/VerseCaster/out/sermon%20cards/VC_02_Judges_16-21.png" />
+    </asset>
+    <asset id="r5" name="1 Corinthians 10:12" start="0s" duration="0s" hasVideo="1" format="r2" videoSources="1">
+      <media-rep kind="original-media" src="file:///Users/emmanuelakinleye/Documents/TEC%20VIDEOS/VerseCaster/out/sermon%20cards/VC_03_1_Corinthians_10-12.png" />
+    </asset>
+    <asset id="r6" name="James 1:14" start="0s" duration="0s" hasVideo="1" format="r2" videoSources="1">
+      <media-rep kind="original-media" src="file:///Users/emmanuelakinleye/Documents/TEC%20VIDEOS/VerseCaster/out/sermon%20cards/VC_04_James_1-14.png" />
+    </asset>
+    <asset id="r7" name="Proverbs 6:27" start="0s" duration="0s" hasVideo="1" format="r2" videoSources="1">
+      <media-rep kind="original-media" src="file:///Users/emmanuelakinleye/Documents/TEC%20VIDEOS/VerseCaster/out/sermon%20cards/VC_05_Proverbs_6-27.png" />
+    </asset>
+    <asset id="r8" name="Judges 16:22" start="0s" duration="0s" hasVideo="1" format="r2" videoSources="1">
+      <media-rep kind="original-media" src="file:///Users/emmanuelakinleye/Documents/TEC%20VIDEOS/VerseCaster/out/sermon%20cards/VC_06_Judges_16-22.png" />
+    </asset>
+  </resources>
+  <library>
+    <event name="VerseCaster">
+      <project name="sermon — Verse Captions">
+        <sequence format="r1" duration="374200/2500s" tcStart="0s" tcFormat="NDF">
+          <spine>
+            <gap name="Gap" offset="0s" start="0s" duration="374200/2500s">
+              <video ref="r3" lane="1" offset="37800/2500s" name="Judges 16:20" start="0s" duration="87800/2500s">
+                <adjust-transform>
+                  <param name="position">
+                    <keyframeAnimation>
+                      <keyframe time="0s" value="0 -46.0" interp="ease" curve="smooth" />
+                      <keyframe time="1200/2500s" value="0 0" interp="ease" curve="smooth" />
+                      <keyframe time="86900/2500s" value="0 0" interp="ease" curve="smooth" />
+                      <keyframe time="87800/2500s" value="0 -46.0" interp="ease" curve="smooth" />
+                    </keyframeAnimation>
+                  </param>
+                </adjust-transform>
+                <adjust-blend>
+                  <param name="amount">
+                    <keyframeAnimation>
+                      <keyframe time="0s" value="0" interp="ease" curve="smooth" />
+                      <keyframe time="1200/2500s" value="1" interp="ease" curve="smooth" />
+                      <keyframe time="86900/2500s" value="1" interp="ease" curve="smooth" />
+                      <keyframe time="87800/2500s" value="0" interp="ease" curve="smooth" />
+                    </keyframeAnimation>
+                  </param>
+                </adjust-blend>
+              </video>
+              <video ref="r4" lane="1" offset="126600/2500s" name="Judges 16:21" start="0s" duration="46400/2500s">
+                <adjust-transform>
+                  <param name="position">
+                    <keyframeAnimation>
+                      <keyframe time="0s" value="0 -46.0" interp="ease" curve="smooth" />
+                      <keyframe time="1200/2500s" value="0 0" interp="ease" curve="smooth" />
+                      <keyframe time="45500/2500s" value="0 0" interp="ease" curve="smooth" />
+                      <keyframe time="46400/2500s" value="0 -46.0" interp="ease" curve="smooth" />
+                    </keyframeAnimation>
+                  </param>
+                </adjust-transform>
+                <adjust-blend>
+                  <param name="amount">
+                    <keyframeAnimation>
+                      <keyframe time="0s" value="0" interp="ease" curve="smooth" />
+                      <keyframe time="1200/2500s" value="1" interp="ease" curve="smooth" />
+                      <keyframe time="45500/2500s" value="1" interp="ease" curve="smooth" />
+                      <keyframe time="46400/2500s" value="0" interp="ease" curve="smooth" />
+                    </keyframeAnimation>
+                  </param>
+                </adjust-blend>
+              </video>
+              <video ref="r5" lane="1" offset="195800/2500s" name="1 Corinthians 10:12" start="0s" duration="40700/2500s">
+                <adjust-transform>
+                  <param name="position">
+                    <keyframeAnimation>
+                      <keyframe time="0s" value="0 -46.0" interp="ease" curve="smooth" />
+                      <keyframe time="1200/2500s" value="0 0" interp="ease" curve="smooth" />
+                      <keyframe time="39800/2500s" value="0 0" interp="ease" curve="smooth" />
+                      <keyframe time="40700/2500s" value="0 -46.0" interp="ease" curve="smooth" />
+                    </keyframeAnimation>
+                  </param>
+                </adjust-transform>
+                <adjust-blend>
+                  <param name="amount">
+                    <keyframeAnimation>
+                      <keyframe time="0s" value="0" interp="ease" curve="smooth" />
+                      <keyframe time="1200/2500s" value="1" interp="ease" curve="smooth" />
+                      <keyframe time="39800/2500s" value="1" interp="ease" curve="smooth" />
+                      <keyframe time="40700/2500s" value="0" interp="ease" curve="smooth" />
+                    </keyframeAnimation>
+                  </param>
+                </adjust-blend>
+              </video>
+              <video ref="r6" lane="1" offset="247300/2500s" name="James 1:14" start="0s" duration="23100/2500s">
+                <adjust-transform>
+                  <param name="position">
+                    <keyframeAnimation>
+                      <keyframe time="0s" value="0 -46.0" interp="ease" curve="smooth" />
+                      <keyframe time="1200/2500s" value="0 0" interp="ease" curve="smooth" />
+                      <keyframe time="22200/2500s" value="0 0" interp="ease" curve="smooth" />
+                      <keyframe time="23100/2500s" value="0 -46.0" interp="ease" curve="smooth" />
+                    </keyframeAnimation>
+                  </param>
+                </adjust-transform>
+                <adjust-blend>
+                  <param name="amount">
+                    <keyframeAnimation>
+                      <keyframe time="0s" value="0" interp="ease" curve="smooth" />
+                      <keyframe time="1200/2500s" value="1" interp="ease" curve="smooth" />
+                      <keyframe time="22200/2500s" value="1" interp="ease" curve="smooth" />
+                      <keyframe time="23100/2500s" value="0" interp="ease" curve="smooth" />
+                    </keyframeAnimation>
+                  </param>
+                </adjust-blend>
+              </video>
+              <video ref="r7" lane="1" offset="297100/2500s" name="Proverbs 6:27" start="0s" duration="17000/2500s">
+                <adjust-transform>
+                  <param name="position">
+                    <keyframeAnimation>
+                      <keyframe time="0s" value="0 -46.0" interp="ease" curve="smooth" />
+                      <keyframe time="1200/2500s" value="0 0" interp="ease" curve="smooth" />
+                      <keyframe time="16100/2500s" value="0 0" interp="ease" curve="smooth" />
+                      <keyframe time="17000/2500s" value="0 -46.0" interp="ease" curve="smooth" />
+                    </keyframeAnimation>
+                  </param>
+                </adjust-transform>
+                <adjust-blend>
+                  <param name="amount">
+                    <keyframeAnimation>
+                      <keyframe time="0s" value="0" interp="ease" curve="smooth" />
+                      <keyframe time="1200/2500s" value="1" interp="ease" curve="smooth" />
+                      <keyframe time="16100/2500s" value="1" interp="ease" curve="smooth" />
+                      <keyframe time="17000/2500s" value="0" interp="ease" curve="smooth" />
+                    </keyframeAnimation>
+                  </param>
+                </adjust-blend>
+              </video>
+              <video ref="r8" lane="1" offset="342700/2500s" name="Judges 16:22" start="0s" duration="29700/2500s">
+                <adjust-transform>
+                  <param name="position">
+                    <keyframeAnimation>
+                      <keyframe time="0s" value="0 -46.0" interp="ease" curve="smooth" />
+                      <keyframe time="1200/2500s" value="0 0" interp="ease" curve="smooth" />
+                      <keyframe time="28800/2500s" value="0 0" interp="ease" curve="smooth" />
+                      <keyframe time="29700/2500s" value="0 -46.0" interp="ease" curve="smooth" />
+                    </keyframeAnimation>
+                  </param>
+                </adjust-transform>
+                <adjust-blend>
+                  <param name="amount">
+                    <keyframeAnimation>
+                      <keyframe time="0s" value="0" interp="ease" curve="smooth" />
+                      <keyframe time="1200/2500s" value="1" interp="ease" curve="smooth" />
+                      <keyframe time="28800/2500s" value="1" interp="ease" curve="smooth" />
+                      <keyframe time="29700/2500s" value="0" interp="ease" curve="smooth" />
+                    </keyframeAnimation>
+                  </param>
+                </adjust-blend>
+              </video>
+            </gap>
+          </spine>
+        </sequence>
+      </project>
+    </event>
+  </library>
+</fcpxml>

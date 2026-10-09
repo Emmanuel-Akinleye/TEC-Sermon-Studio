@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>TEC Sermon Studio</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="bar">
+  <div class="brand">
+    <span class="mark">TS</span>
+    <div>
+      <h1>TEC Sermon Studio</h1>
+      <p id="hostline">connecting…</p>
+    </div>
+  </div>
+  <button id="settingsToggle" class="ghost" title="Settings">⚙</button>
+</header>
+
+<main id="scroller">
+
+<section id="settings" class="panel hidden">
+  <div class="row">
+    <label for="translation">On-screen translation</label>
+    <select id="translation">
+      <option value="ESV">ESV — needs a free key</option>
+      <option value="NLT">NLT — needs a free key</option>
+      <option value="NIV">NIV — needs a key</option>
+      <option value="NKJV">NKJV — needs a key</option>
+      <option value="NASB">NASB — needs a key</option>
+      <option value="CSB">CSB — needs a key</option>
+      <option value="AMP">AMP — needs a key</option>
+      <option value="KJV">KJV — works offline</option>
+      <option value="ASV">ASV — works offline</option>
+      <option value="BSB">BSB — works offline</option>
+    </select>
+  </div>
+  <div class="row">
+    <label for="esvKey">ESV key</label>
+    <input id="esvKey" type="text" spellcheck="false" placeholder="paste your api.esv.org token">
+    <button id="testKey" class="ghost small">Test</button>
+  </div>
+  <p class="hint">
+    Get a free ESV key at <a href="#" id="esvLink">api.esv.org</a> — free for church use.
+    Paste it above and press Test.
+  </p>
+  <div class="row">
+    <label for="layout">Layout</label>
+    <select id="layout">
+      <option value="lower-third">Lower third — overlay on your edit</option>
+      <option value="slide">Slide panel — camera inset, verse beside it</option>
+    </select>
+  </div>
+  <div id="slideOptions" class="hidden">
+    <div class="row">
+      <label>Backdrop</label>
+      <input id="bgColor" type="color" class="swatch" title="Background colour">
+      <span id="bgName" class="v grow-ellipsis">colour only</span>
+      <button id="chooseBg" class="ghost small">Image…</button>
+      <button id="clearBg" class="ghost small">Clear</button>
+    </div>
+    <div class="row">
+      <label>Outlines</label>
+      <input id="borderColor" type="color" class="swatch" title="Outline colour">
+      <input id="borderWidth" type="number" min="0" max="40" step="1" class="num">
+      <span class="hint">px · camera + panel</span>
+    </div>
+    <div class="row">
+      <label>Panel</label>
+      <input id="panelColor" type="color" class="swatch" title="Panel fill">
+      <input id="verseColor" type="color" class="swatch" title="Text colour">
+      <span class="hint">panel fill · text</span>
+    </div>
+    <div class="row">
+      <label>Logo</label>
+      <span id="logoName" class="v grow-ellipsis">none</span>
+      <button id="chooseLogo" class="ghost small">Choose…</button>
+      <button id="clearLogo" class="ghost small">Clear</button>
+    </div>
+    <div class="row">
+      <label for="logoWidth">Logo size</label>
+      <input id="logoWidth" type="number" min="40" max="600" step="10" class="num">
+      <span class="hint">wide, in 1920&times;1080 units</span>
+    </div>
+    <div class="row">
+      <label for="followPreacher">Follow the preacher</label>
+      <input id="followPreacher" type="checkbox">
+      <span class="hint">keeps him centred in the camera inset as he moves</span>
+    </div>
+    <div class="row">
+      <label for="startAfter">Panel starts after</label>
+      <input id="startAfter" type="number" min="0" max="900" step="1" class="num">
+      <span class="hint">seconds into the comp — set it past your intro</span>
+    </div>
+    <p class="hint">Slide layout builds a new comp containing your sermon comp,
+       so your edit is left untouched — render that comp instead.</p>
+  </div>
+  <div class="row">
+    <label for="fontFamily">Card font</label>
+    <select id="fontFamily"><option value="">(loading…)</option></select>
+  </div>
+  <div class="row">
+    <label for="model">Transcription</label>
+    <select id="model">
+      <option value="parakeet" selected>Parakeet — most accurate, ~3 min</option>
+    </select>
+  </div>
+  <div class="row">
+    <label for="python">Python</label>
+    <input id="python" type="text" spellcheck="false" placeholder="auto-detect">
+  </div>
+</section>
+
+<section id="warnBanner" class="panel warn hidden">
+  <p id="warnText"></p>
+</section>
+
+<section class="panel">
+  <div class="source">
+    <div class="srcinfo">
+      <span class="k">Sermon</span>
+      <span id="mediaName" class="v">no composition open</span>
+    </div>
+    <div class="srcinfo">
+      <span class="k">Comp</span>
+      <span id="compName" class="v">—</span>
+    </div>
+    <div class="srcinfo">
+      <span class="k">In edit</span>
+      <span id="editInfo" class="v">—</span>
+    </div>
+  </div>
+  <div class="row">
+    <label for="audioPick">Mic</label>
+    <select id="audioPick">
+      <option value="">choose the mic recording…</option>
+    </select>
+    <button id="browseAudio" class="ghost small">File…</button>
+  </div>
+  <p class="hint" id="audioName">Pick the external mic recording for this service.</p>
+  <div class="actions">
+    <button id="refresh" class="ghost small">Re-read comp</button>
+    <button id="browse" class="ghost small">Choose video…</button>
+    <button id="clearAudio" class="ghost small hidden">Clear mic</button>
+  </div>
+</section>
+
+<section id="cleanPanel" class="panel">
+  <div class="resultshead">
+    <h2>Audio cleanup</h2>
+    <div><button id="cleanCheck" class="ghost small" title="Listen to the recording and report what is wrong with it">Check</button></div>
+  </div>
+  <div class="row">
+    <label for="cleanStrength">Strength</label>
+    <select id="cleanStrength">
+      <option value="light">Light — just the noise and rumble</option>
+      <option value="medium" selected>Medium — noise, hum, tone, level</option>
+      <option value="strong">Strong — evens the delivery out too</option>
+      <option value="voice">Voice only — hardest, for a bad recording</option>
+    </select>
+  </div>
+  <div class="row">
+    <label for="cleanDereverb">Room</label>
+    <select id="cleanDereverb">
+      <option value="auto" selected>Decide from the recording</option>
+      <option value="on">Always pull the room down</option>
+      <option value="off">Leave the room alone</option>
+    </select>
+  </div>
+  <ul id="cleanNotes" class="notes"></ul>
+  <div class="actions">
+    <button id="cleanPreview" class="ghost small" title="Hear 20 seconds before and after">Preview</button>
+    <button id="cleanPlayBefore" class="ghost small hidden">▶ Before</button>
+    <button id="cleanPlayAfter" class="ghost small hidden">▶ After</button>
+    <button id="cleanRun" class="small">Clean up audio</button>
+  </div>
+  <p class="hint" id="cleanStatus">Cleans the mic recording on this Mac — nothing is uploaded.</p>
+  <div class="actions">
+    <button id="cleanAdd" class="ghost small hidden">Add to After Effects</button>
+    <button id="cleanShow" class="ghost small hidden">Show in Finder</button>
+    <button id="cleanUseForAnalysis" class="ghost small hidden" title="Transcribe the cleaned audio instead">Use for analysis</button>
+  </div>
+  <audio id="cleanAudio"></audio>
+</section>
+
+<section id="deckPanel" class="panel">
+  <div class="resultshead">
+    <h2>Slides</h2>
+    <div>
+      <button id="deckChoose" class="ghost small" title="A PDF, a .pptx, or a folder of exported pictures">Choose deck…</button>
+      <button id="deckFolder" class="ghost small" title="A folder of exported slide pictures">Folder…</button>
+      <button id="deckClear" class="ghost small hidden">Clear</button>
+    </div>
+  </div>
+  <p class="hint" id="deckName">For a session carried by a presentation rather than by verses.
+     Export a PDF or PNGs from Canva, Keynote, PowerPoint or Google Slides.</p>
+  <ul id="deckNotes" class="notes"></ul>
+  <div class="actions">
+    <button id="deckPlace" class="small" disabled title="Work out from the transcript when each slide is being talked about">Place from transcript</button>
+    <span id="deckStatus" class="grow-ellipsis"></span>
+  </div>
+</section>
+
+<section class="panel">
+  <button id="analyze" class="primary">Analyze sermon</button>
+  <div id="progress" class="progress hidden">
+    <div class="pctrow">
+      <div class="pct"><span id="pctValue">0</span><span class="sign">%</span></div>
+      <div class="pctside">
+        <p id="status">…</p>
+        <p id="eta" class="eta"></p>
+      </div>
+    </div>
+    <button id="cancel" class="ghost small">Cancel</button>
+  </div>
+</section>
+
+<section id="syncPanel" class="panel hidden">
+  <div class="syncrow">
+    <div>
+      <div id="syncOffset" class="syncbig">—</div>
+      <p id="syncNote" class="hint"></p>
+    </div>
+    <button id="applySync" class="ghost small">Apply to timeline</button>
+  </div>
+</section>
+
+<section id="resultsPanel" class="panel grow hidden">
+  <div class="resultshead">
+    <h2><span id="count">0</span> verses found</h2>
+    <div>
+      <button id="addVerse" class="ghost small" title="Add a verse the analysis missed, at the playhead">+ Add</button>
+      <button id="onlyFlagged" class="ghost small">Flagged</button>
+      <button id="selectAll" class="ghost small">All</button>
+      <button id="selectNone" class="ghost small">None</button>
+    </div>
+  </div>
+  <div id="addRow" class="row hidden">
+    <input id="addRef" type="text" spellcheck="false" placeholder="e.g. John 3:16 — starts at the playhead">
+    <button id="addGo" class="ghost small">Add</button>
+  </div>
+  <ul id="results"></ul>
+  <p id="subsLine" class="hint hidden"><span id="subsText"></span> · <a href="#" id="subsShow">Show in Finder</a></p>
+</section>
+
+<section id="snippetPanel" class="panel hidden">
+  <div class="resultshead">
+    <h2>Snippets</h2>
+    <div><button id="snipSuggest" class="ghost small" title="Find moments that would make good short clips">Suggest</button></div>
+  </div>
+  <div class="row">
+    <button id="snipIn" class="ghost small" title="The snippet starts where the playhead is">Start at playhead</button>
+    <span id="snipRange" class="grow-ellipsis">choose where it starts and ends</span>
+    <button id="snipOut" class="ghost small" title="The snippet ends where the playhead is">End at playhead</button>
+  </div>
+  <div class="actions">
+    <button id="snipMake" class="small" disabled>Make snippet</button>
+    <span id="snipStatus" class="grow-ellipsis"></span>
+  </div>
+  <ul id="snipList"></ul>
+</section>
+
+</main>
+
+<footer class="bar bottom">
+  <span id="footnote"></span>
+  <button id="build" class="primary">Build in After Effects</button>
+</footer>
+
+<script src="js/CSInterface.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

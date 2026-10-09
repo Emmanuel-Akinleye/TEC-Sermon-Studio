@@ -1,0 +1,1023 @@
+{
+  "version": 1,
+  "media": "/Users/emmanuelakinleye/Documents/TEC VIDEOS/07:10:2026.WAV",
+  "media_identity": "07:10:2026.WAV|1378591232|1483228862",
+  "duration": 4786.774958,
+  "fps": 29.9700012207031,
+  "translation": "ESV",
+  "corpus": "BSB",
+  "audio": "/Users/emmanuelakinleye/Documents/TEC VIDEOS/07:10:2026.WAV",
+  "alignment": {
+    "offset": 0.0,
+    "confidence": 57.17,
+    "drift_ppm": 0.0,
+    "drift_seconds": 0.0,
+    "stretch_percent": 100.0,
+    "overlap": 4786.8,
+    "anchors": [
+      {
+        "at": 433.68,
+        "offset": 0.0,
+        "confidence": 57.17
+      },
+      {
+        "at": 1391.03,
+        "offset": 0.0,
+        "confidence": 61.21
+      },
+      {
+        "at": 2348.39,
+        "offset": 0.0,
+        "confidence": 59.32
+      },
+      {
+        "at": 3305.74,
+        "offset": 0.0,
+        "confidence": 56.07
+      },
+      {
+        "at": 4263.09,
+        "offset": 0.0,
+        "confidence": 56.42
+      }
+    ],
+    "a0": -0.0,
+    "a1": 0.0,
+    "solid": true
+  },
+  "generated": "2026-10-07 22:09:52",
+  "style": {
+    "reference": [
+      1920,
+      1080
+    ],
+    "fonts": {
+      "reference": [
+        "TomatoGrotesk-SemiBold",
+        "Arial-BoldMT"
+      ],
+      "verse": [
+        "TomatoGrotesk-Regular",
+        "ArialMT"
+      ],
+      "translation": [
+        "TomatoGrotesk-Medium",
+        "ArialMT"
+      ]
+    },
+    "bar": {
+      "fill": [
+        247,
+        243,
+        236
+      ],
+      "textColor": [
+        26,
+        26,
+        26
+      ],
+      "fontSize": 44,
+      "leading": 60,
+      "paddingX": 34,
+      "paddingTop": 26,
+      "paddingBottom": 26,
+      "minHeight": 130,
+      "maxHeight": 260,
+      "bottomOffset": 0,
+      "fullWidth": true,
+      "width": 1920
+    },
+    "chip": {
+      "fill": [
+        200,
+        89,
+        75
+      ],
+      "textColor": [
+        255,
+        255,
+        255
+      ],
+      "fontSize": 34,
+      "translationFontSize": 26,
+      "translationColor": [
+        255,
+        226,
+        220
+      ],
+      "paddingX": 26,
+      "paddingY": 14,
+      "cornerRadius": 0,
+      "offsetX": 0,
+      "gapBelow": 0,
+      "showTranslation": true
+    },
+    "animation": {
+      "inDuration": 0.5,
+      "outDuration": 0.35,
+      "slideY": 46,
+      "chipDelay": 0.08,
+      "easeInfluence": 70
+    },
+    "build": {
+      "mode": "captions-comp",
+      "compSuffix": " \u2014 Verse Captions",
+      "labelColor": 11,
+      "shyGroups": false,
+      "slideCompSuffix": " \u2014 Slide Layout"
+    },
+    "slide": {
+      "background": {
+        "image": "/Users/emmanuelakinleye/Downloads/ChatGPT Image Sep 21, 2026, 02_03_40 PM-upscaled.png",
+        "fill": [
+          228,
+          228,
+          226
+        ]
+      },
+      "camera": {
+        "x": 48,
+        "y": 62,
+        "width": 552,
+        "height": 956,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "border": {
+          "width": 5,
+          "color": [
+            228,
+            144,
+            27
+          ],
+          "radius": 0
+        },
+        "zoom": 1,
+        "follow": true
+      },
+      "panel": {
+        "x": 660,
+        "y": 240,
+        "width": 1212,
+        "height": 600,
+        "fill": [
+          236,
+          236,
+          234
+        ],
+        "fillOpacity": 100,
+        "strokeWidth": 5,
+        "strokeColor": [
+          228,
+          144,
+          27
+        ],
+        "paddingX": 70,
+        "paddingTop": 62,
+        "paddingBottom": 56
+      },
+      "series": {
+        "text": "",
+        "fontSize": 82,
+        "leading": 86,
+        "color": [
+          18,
+          18,
+          18
+        ],
+        "accentColor": [
+          138,
+          168,
+          108
+        ],
+        "rule": false,
+        "ruleColor": [
+          120,
+          120,
+          118
+        ],
+        "ruleWidth": 2,
+        "gapBelow": 92
+      },
+      "verse": {
+        "fontSize": 54,
+        "leading": 74,
+        "color": [
+          20,
+          20,
+          20
+        ],
+        "align": "center",
+        "maxHeight": 380
+      },
+      "reference": {
+        "fontSize": 46,
+        "color": [
+          20,
+          20,
+          20
+        ],
+        "align": "right",
+        "gapAbove": 26
+      },
+      "logo": {
+        "image": "/Users/emmanuelakinleye/Downloads/logo 00 2.PNG",
+        "width": 170,
+        "marginRight": 64,
+        "marginBottom": 48
+      },
+      "animation": {
+        "panelFade": 0.6,
+        "verseIn": 0.4,
+        "verseOut": 0.3,
+        "easeInfluence": 72,
+        "holdGap": 20,
+        "minFullFrame": 4,
+        "insetOpenBefore": 0.5,
+        "insetCloseAfter": 1.5,
+        "insetMinWindow": 4,
+        "startAfter": 18,
+        "minReadable": 2.5,
+        "readingRate": 3.3,
+        "maxReadable": 12
+      }
+    },
+    "snippet": {
+      "size": [
+        2160,
+        3840
+      ],
+      "reference": [
+        1080,
+        1920
+      ],
+      "frame": {
+        "x": 90,
+        "y": 400,
+        "width": 900,
+        "height": 1400
+      },
+      "logo": {
+        "width": 300,
+        "maxHeight": 230,
+        "top": 120
+      },
+      "camera": {
+        "zoom": 1,
+        "focusY": 0.5,
+        "follow": true
+      },
+      "caption": {
+        "fontSize": 74,
+        "leading": 86,
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "strokeColor": [
+          18,
+          18,
+          18
+        ],
+        "strokeWidth": 9,
+        "y": 0.62,
+        "in": 0.22,
+        "out": 0.25,
+        "rise": 38
+      },
+      "fadeAudio": 0.15
+    }
+  },
+  "cues": [
+    {
+      "ref": "Romans 1:7",
+      "book": "Romans",
+      "chapter": 1,
+      "verse": 7,
+      "verse_end": null,
+      "start": 2127.3606,
+      "end": 2133.9338,
+      "text": "To all those in Rome who are loved by God and called to be saints: Grace to you and peace from God our Father and the Lord Jesus Christ.",
+      "translation": "ESV",
+      "confidence": 1.0,
+      "source": "spoken",
+      "kind": "verse",
+      "said": "romans chapter 1 verse 7",
+      "enabled": true,
+      "precise": false,
+      "verified": 0.0,
+      "check": "",
+      "notes": [
+        "cited, not read aloud"
+      ],
+      "duration": 6.573
+    },
+    {
+      "ref": "Ephesians 2",
+      "book": "Ephesians",
+      "chapter": 2,
+      "verse": 0,
+      "verse_end": null,
+      "start": 2167.6008,
+      "end": 2172.7393,
+      "text": "",
+      "translation": "ESV",
+      "confidence": 0.9,
+      "source": "chapter",
+      "kind": "verse",
+      "said": "ephesians 2",
+      "enabled": false,
+      "precise": false,
+      "verified": null,
+      "check": "",
+      "notes": [
+        "chapter only - no verse spoken",
+        "cut by next verse"
+      ],
+      "duration": 5.139
+    },
+    {
+      "ref": "Romans 1:17",
+      "book": "Romans",
+      "chapter": 1,
+      "verse": 17,
+      "verse_end": null,
+      "start": 2173.1397,
+      "end": 2183.5168,
+      "text": "For in it the righteousness of God is revealed from faith for faith, as it is written, \u201cThe righteous shall live by faith.\u201d",
+      "translation": "ESV",
+      "confidence": 0.95,
+      "source": "spoken+read",
+      "kind": "verse",
+      "said": "romans 1 17",
+      "enabled": true,
+      "precise": true,
+      "verified": 0.2,
+      "check": "",
+      "notes": [
+        "range split by reading",
+        "end set by the last words read"
+      ],
+      "duration": 10.377
+    },
+    {
+      "ref": "Psalms 22",
+      "book": "Psalms",
+      "chapter": 22,
+      "verse": 0,
+      "verse_end": null,
+      "start": 2188.0213,
+      "end": 2195.7623,
+      "text": "",
+      "translation": "ESV",
+      "confidence": 0.9,
+      "source": "chapter",
+      "kind": "verse",
+      "said": "psalm 22",
+      "enabled": false,
+      "precise": false,
+      "verified": null,
+      "check": "",
+      "notes": [
+        "chapter only - no verse spoken"
+      ],
+      "duration": 7.741
+    },
+    {
+      "ref": "Luke 1:28-29",
+      "book": "Luke",
+      "chapter": 1,
+      "verse": 28,
+      "verse_end": 29,
+      "start": 3190.5571,
+      "end": 3215.7823,
+      "text": "And he came to her and said, \u201cGreetings, O favored one, the Lord is with you!\u201d But she was greatly troubled at the saying, and tried to discern what sort of greeting this might be.",
+      "translation": "ESV",
+      "confidence": 1.0,
+      "source": "spoken+read",
+      "kind": "verse",
+      "said": "luke chapter 1 verse 28",
+      "enabled": true,
+      "precise": true,
+      "verified": 0.33,
+      "check": "",
+      "notes": [
+        "range split by reading"
+      ],
+      "duration": 25.225
+    },
+    {
+      "ref": "Luke 1:30",
+      "book": "Luke",
+      "chapter": 1,
+      "verse": 30,
+      "verse_end": null,
+      "start": 3215.7823,
+      "end": 3222.0553,
+      "text": "And the angel said to her, \u201cDo not be afraid, Mary, for you have found favor with God.",
+      "translation": "ESV",
+      "confidence": 1.0,
+      "source": "spoken+read",
+      "kind": "verse",
+      "said": "read verse 30",
+      "enabled": true,
+      "precise": true,
+      "verified": 0.5,
+      "check": "",
+      "notes": [
+        "from the range Luke 1:28"
+      ],
+      "duration": 6.273
+    }
+  ],
+  "mentions": [
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 531.2,
+      "end": 531.84,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        1188,
+        1189
+      ],
+      "context_carried": false,
+      "heard": 0.999,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 536.64,
+      "end": 537.28,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        1202,
+        1203
+      ],
+      "context_carried": false,
+      "heard": 1.0,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 545.0,
+      "end": 545.56,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        1223,
+        1224
+      ],
+      "context_carried": false,
+      "heard": 0.997,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 553.96,
+      "end": 554.52,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        1239,
+        1240
+      ],
+      "context_carried": false,
+      "heard": 0.999,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 580.2,
+      "end": 580.52,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        1306,
+        1307
+      ],
+      "context_carried": false,
+      "heard": 0.999,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 663.76,
+      "end": 664.16,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        1511,
+        1512
+      ],
+      "context_carried": false,
+      "heard": 0.997,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 743.44,
+      "end": 743.84,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        1732,
+        1733
+      ],
+      "context_carried": false,
+      "heard": 0.999,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 853.08,
+      "end": 853.72,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        2027,
+        2028
+      ],
+      "context_carried": false,
+      "heard": 0.999,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 854.96,
+      "end": 855.28,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        2035,
+        2036
+      ],
+      "context_carried": false,
+      "heard": 0.998,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 856.32,
+      "end": 856.96,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        2042,
+        2043
+      ],
+      "context_carried": false,
+      "heard": 1.0,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 864.4,
+      "end": 864.8,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        2058,
+        2059
+      ],
+      "context_carried": false,
+      "heard": 0.995,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 1100.72,
+      "end": 1101.12,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        2598,
+        2599
+      ],
+      "context_carried": false,
+      "heard": 0.998,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 1134.16,
+      "end": 1134.56,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        2674,
+        2675
+      ],
+      "context_carried": false,
+      "heard": 0.998,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 1138.08,
+      "end": 1138.4,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        2688,
+        2689
+      ],
+      "context_carried": false,
+      "heard": 0.999,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 1451.8,
+      "end": 1452.2,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        3491,
+        3492
+      ],
+      "context_carried": false,
+      "heard": 0.998,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 1603.24,
+      "end": 1603.64,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        3856,
+        3857
+      ],
+      "context_carried": false,
+      "heard": 0.991,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": 1,
+      "verse": 7,
+      "verse_end": null,
+      "kind": "full",
+      "start": 2127.52,
+      "end": 2129.44,
+      "confidence": 1.0,
+      "said": "romans chapter 1 verse 7",
+      "translation": null,
+      "token_span": [
+        5254,
+        5259
+      ],
+      "context_carried": false,
+      "heard": 0.944,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1:7"
+    },
+    {
+      "book": "Ephesians",
+      "chapter": 2,
+      "verse": null,
+      "verse_end": null,
+      "kind": "chapter-only",
+      "start": 2167.76,
+      "end": 2169.36,
+      "confidence": 0.9,
+      "said": "ephesians 2",
+      "translation": null,
+      "token_span": [
+        5354,
+        5356
+      ],
+      "context_carried": false,
+      "heard": 1.0,
+      "relative": false,
+      "loose": false,
+      "ref": "Ephesians 2"
+    },
+    {
+      "book": "Romans",
+      "chapter": 1,
+      "verse": 17,
+      "verse_end": null,
+      "kind": "full",
+      "start": 2173.28,
+      "end": 2174.48,
+      "confidence": 0.95,
+      "said": "romans 1 17",
+      "translation": null,
+      "token_span": [
+        5363,
+        5366
+      ],
+      "context_carried": false,
+      "heard": 0.929,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1:17"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 22,
+      "verse": null,
+      "verse_end": null,
+      "kind": "chapter-only",
+      "start": 2188.16,
+      "end": 2189.76,
+      "confidence": 0.9,
+      "said": "psalm 22",
+      "translation": null,
+      "token_span": [
+        5406,
+        5408
+      ],
+      "context_carried": false,
+      "heard": 1.0,
+      "relative": false,
+      "loose": false,
+      "ref": "Psalms 22"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 2504.76,
+      "end": 2505.24,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        6208,
+        6209
+      ],
+      "context_carried": false,
+      "heard": 1.0,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 2568.4,
+      "end": 2568.72,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        6354,
+        6355
+      ],
+      "context_carried": false,
+      "heard": 1.0,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Galatians",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 2593.28,
+      "end": 2594.0,
+      "confidence": 0.7,
+      "said": "galatians",
+      "translation": null,
+      "token_span": [
+        6415,
+        6416
+      ],
+      "context_carried": false,
+      "heard": 0.888,
+      "relative": false,
+      "loose": false,
+      "ref": "Galatians 1"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 3079.88,
+      "end": 3080.2,
+      "confidence": 0.7,
+      "said": "hebrew",
+      "translation": null,
+      "token_span": [
+        7712,
+        7713
+      ],
+      "context_carried": false,
+      "heard": 0.997,
+      "relative": false,
+      "loose": false,
+      "ref": "Hebrews 1"
+    },
+    {
+      "book": "Luke",
+      "chapter": 1,
+      "verse": 28,
+      "verse_end": null,
+      "kind": "full",
+      "start": 3190.72,
+      "end": 3192.56,
+      "confidence": 1.0,
+      "said": "luke chapter 1 verse 28",
+      "translation": null,
+      "token_span": [
+        8030,
+        8035
+      ],
+      "context_carried": false,
+      "heard": 0.964,
+      "relative": false,
+      "loose": false,
+      "ref": "Luke 1:28"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 4334.04,
+      "end": 4334.44,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        10901,
+        10902
+      ],
+      "context_carried": false,
+      "heard": 0.997,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 4346.12,
+      "end": 4346.52,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        10933,
+        10934
+      ],
+      "context_carried": false,
+      "heard": 0.998,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    },
+    {
+      "book": "Romans",
+      "chapter": null,
+      "verse": null,
+      "verse_end": null,
+      "kind": "book-only",
+      "start": 4669.76,
+      "end": 4670.08,
+      "confidence": 0.7,
+      "said": "roman",
+      "translation": null,
+      "token_span": [
+        11787,
+        11788
+      ],
+      "context_carried": false,
+      "heard": 0.981,
+      "relative": false,
+      "loose": false,
+      "ref": "Romans 1"
+    }
+  ]
+}

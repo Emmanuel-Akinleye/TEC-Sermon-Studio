@@ -1,0 +1,24 @@
+/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/emmanuelakinleye/Documents/TEC VIDEOS/TEC Sermon Studio/engine/cli.py analyze /Volumes/Extreme Pro/C0001_recovered.mp4 --translation ESV --model parakeet --fps 29.9700012207031 --json --audio /Users/emmanuelakinleye/Documents/TEC VIDEOS/07:10:2026.WAV
+
+{"event": "progress", "stage": "corpus", "message": "Preparing BSB corpus", "elapsed": 0.0, "pct": 0.0}
+{"event": "progress", "stage": "sync", "message": "Matching mic recording to camera", "elapsed": 0.0, "pct": 0.0}
+{"event": "progress", "stage": "sync", "message": "Reading camera audio", "elapsed": 0.0}
+{"event": "progress", "stage": "sync", "message": "Reading mic recording", "elapsed": 16.9}
+{"event": "progress", "stage": "sync", "message": "Aligning", "elapsed": 28.8}
+{"event": "progress", "stage": "sync", "message": "Checking sync at 7 min", "elapsed": 28.9}
+{"event": "progress", "stage": "sync", "message": "Checking sync at 22 min", "elapsed": 30.6}
+{"event": "progress", "stage": "sync", "message": "Checking sync at 37 min", "elapsed": 32.1}
+{"event": "progress", "stage": "sync", "message": "Checking sync at 51 min", "elapsed": 33.7}
+{"event": "progress", "stage": "sync", "message": "Checking sync at 66 min", "elapsed": 35.3}
+{"event": "progress", "stage": "sync", "message": "offset -153.046s (the mic started 153.046s before the camera)", "elapsed": 36.7, "pct": 1.0, "offset": -153.0458, "confidence": 26.28, "solid": true}
+{"event": "progress", "stage": "transcribe", "message": "Transcribing mic recording", "elapsed": 36.7, "pct": 0.0}
+{"event": "progress", "stage": "transcribe", "message": "Using cached transcript", "elapsed": 36.7}
+{"event": "progress", "stage": "detect", "message": "Finding spoken references", "elapsed": 38.4, "pct": 0.0}
+{"event": "progress", "stage": "detect", "message": "28 references spoken", "elapsed": 44.5, "pct": 1.0, "mentions": 28}
+{"event": "progress", "stage": "quotes", "message": "Matching passages read aloud", "elapsed": 44.5, "pct": 0.0}
+{"event": "progress", "stage": "quotes", "message": "57 passages read aloud", "elapsed": 45.2, "pct": 1.0, "quotes": 57}
+{"event": "progress", "stage": "cues", "message": "Building cue timings", "elapsed": 45.2, "pct": 0.0}
+{"event": "progress", "stage": "cues", "message": "6 cues", "elapsed": 53.7, "pct": 1.0}
+{"event": "done", "cues_path": "/Users/emmanuelakinleye/Documents/TEC VIDEOS/TEC Sermon Studio/out/C0001_recovered.cues.json", "cue_count": 6, "enabled": 4, "alignment": {"offset": -153.0458, "confidence": 26.28, "drift_ppm": 11.5, "drift_seconds": 0.052, "stretch_percent": 100.00115, "overlap": 4477.0, "anchors": [{"at": 402.7, "offset": -153.047, "confidence": 26.64}, {"at": 1298.09, "offset": -153.036, "confidence": 29.05}, {"at": 2193.49, "offset": -153.008, "confidence": 22.85}, {"at": 3088.88, "offset": -152.997, "confidence": 26.28}, {"at": 3984.27, "offset": -153.015, "confidence": 25.21}], "a0": -153.04759279758656, "a1": 1.1503397257257451e-05, "solid": true}}
+
+exit code: 0

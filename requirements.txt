@@ -1,0 +1,6 @@
+# Local speech recognition with word-level timestamps, on the Apple GPU.
+# Picked by testing on real sermon readings: 90% accurate vs 80% for the best
+# Whisper model, in about 3 minutes a sermon.
+parakeet-mlx>=0.3
+# CA bundle: python.org macOS builds ship without one.
+certifi>=2024.2.2

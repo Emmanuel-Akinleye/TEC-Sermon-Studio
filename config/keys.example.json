@@ -1,0 +1,9 @@
+{
+  "esv": "paste your free api.esv.org token here",
+  "nlt": "paste your free api.nlt.to key here",
+  "apibible": "paste your scripture.api.bible key here",
+  "bible_ids": {
+    "NKJV": "api.bible id for this translation",
+    "NASB": "api.bible id for this translation"
+  }
+}

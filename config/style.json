@@ -1,0 +1,284 @@
+{
+  "reference": [
+    1920,
+    1080
+  ],
+  "fonts": {
+    "reference": [
+      "TomatoGrotesk-SemiBold",
+      "Arial-BoldMT"
+    ],
+    "verse": [
+      "TomatoGrotesk-Regular",
+      "ArialMT"
+    ],
+    "translation": [
+      "TomatoGrotesk-Medium",
+      "ArialMT"
+    ]
+  },
+  "bar": {
+    "fill": [
+      247,
+      243,
+      236
+    ],
+    "textColor": [
+      26,
+      26,
+      26
+    ],
+    "fontSize": 44,
+    "leading": 60,
+    "paddingX": 34,
+    "paddingTop": 26,
+    "paddingBottom": 26,
+    "minHeight": 130,
+    "maxHeight": 260,
+    "bottomOffset": 0,
+    "fullWidth": true,
+    "width": 1920
+  },
+  "chip": {
+    "fill": [
+      200,
+      89,
+      75
+    ],
+    "textColor": [
+      255,
+      255,
+      255
+    ],
+    "fontSize": 34,
+    "translationFontSize": 26,
+    "translationColor": [
+      255,
+      226,
+      220
+    ],
+    "paddingX": 26,
+    "paddingY": 14,
+    "cornerRadius": 0,
+    "offsetX": 0,
+    "gapBelow": 0,
+    "showTranslation": true
+  },
+  "animation": {
+    "inDuration": 0.5,
+    "outDuration": 0.35,
+    "slideY": 46,
+    "chipDelay": 0.08,
+    "easeInfluence": 70
+  },
+  "build": {
+    "mode": "captions-comp",
+    "compSuffix": " — Verse Captions",
+    "labelColor": 11,
+    "shyGroups": false,
+    "slideCompSuffix": " — Slide Layout"
+  },
+  "slide": {
+    "background": {
+      "image": "/Users/emmanuelakinleye/Downloads/ChatGPT Image Sep 21, 2026, 02_03_40 PM-upscaled.png",
+      "fill": [
+        228,
+        228,
+        226
+      ]
+    },
+    "camera": {
+      "x": 48,
+      "y": 62,
+      "width": 552,
+      "height": 956,
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "border": {
+        "width": 5,
+        "color": [
+          228,
+          144,
+          27
+        ],
+        "radius": 0
+      },
+      "zoom": 1,
+      "follow": false
+    },
+    "panel": {
+      "x": 660,
+      "y": 240,
+      "width": 1212,
+      "height": 600,
+      "fill": [
+        236,
+        236,
+        234
+      ],
+      "fillOpacity": 100,
+      "strokeWidth": 5,
+      "strokeColor": [
+        228,
+        144,
+        27
+      ],
+      "paddingX": 70,
+      "paddingTop": 62,
+      "paddingBottom": 56
+    },
+    "series": {
+      "text": "",
+      "fontSize": 82,
+      "leading": 86,
+      "color": [
+        18,
+        18,
+        18
+      ],
+      "accentColor": [
+        138,
+        168,
+        108
+      ],
+      "rule": false,
+      "ruleColor": [
+        120,
+        120,
+        118
+      ],
+      "ruleWidth": 2,
+      "gapBelow": 92
+    },
+    "verse": {
+      "fontSize": 54,
+      "leading": 74,
+      "color": [
+        20,
+        20,
+        20
+      ],
+      "align": "center",
+      "maxHeight": 380
+    },
+    "reference": {
+      "fontSize": 46,
+      "color": [
+        20,
+        20,
+        20
+      ],
+      "align": "right",
+      "gapAbove": 26
+    },
+    "logo": {
+      "image": "/Users/emmanuelakinleye/Downloads/logo 00 2.PNG",
+      "width": 120,
+      "marginRight": 64,
+      "marginBottom": 48
+    },
+    "animation": {
+      "panelFade": 0.6,
+      "verseIn": 0.4,
+      "verseOut": 0.3,
+      "easeInfluence": 72,
+      "holdGap": 20,
+      "minFullFrame": 4,
+      "insetOpenBefore": 0.5,
+      "insetCloseAfter": 1.5,
+      "insetMinWindow": 4,
+      "startAfter": 18,
+      "minReadable": 2.5,
+      "readingRate": 3.3,
+      "maxReadable": 12
+    },
+    "deck": {
+      "camera": {
+        "x": 24,
+        "y": 280,
+        "width": 300,
+        "height": 520,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "border": {
+          "width": 5,
+          "color": [
+            228,
+            144,
+            27
+          ],
+          "radius": 0
+        },
+        "zoom": 1,
+        "follow": false
+      },
+      "panel": {
+        "x": 348,
+        "y": 96,
+        "width": 1548,
+        "height": 888,
+        "fill": [
+          236,
+          236,
+          234
+        ],
+        "fillOpacity": 100,
+        "strokeWidth": 5,
+        "strokeColor": [
+          228,
+          144,
+          27
+        ],
+        "paddingX": 70,
+        "paddingTop": 62,
+        "paddingBottom": 56
+      }
+    }
+  },
+  "snippet": {
+    "size": [
+      2160,
+      3840
+    ],
+    "reference": [
+      1080,
+      1920
+    ],
+    "frame": {
+      "x": 90,
+      "y": 400,
+      "width": 900,
+      "height": 1400
+    },
+    "logo": {
+      "width": 300,
+      "maxHeight": 230,
+      "top": 120
+    },
+    "camera": {
+      "zoom": 1,
+      "focusY": 0.5,
+      "follow": true
+    },
+    "caption": {
+      "fontSize": 74,
+      "leading": 86,
+      "color": [
+        255,
+        255,
+        255
+      ],
+      "strokeColor": [
+        18,
+        18,
+        18
+      ],
+      "strokeWidth": 9,
+      "y": 0.62,
+      "in": 0.22,
+      "out": 0.25,
+      "rise": 38
+    },
+    "fadeAudio": 0.15
+  }
+}
